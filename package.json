@@ -1,0 +1,17 @@
+{
+  "name": "casino",
+  "version": "1.0.0",
+  "description": "Tragamonedas",
+  "main": "app.js",
+  "scripts": {
+    "casino": "npx tsc && node dist/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1"
+  }
+}
