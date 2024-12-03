@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var clasico_1 = require("./clasico");
+var moderno_1 = require("./moderno");
+var ruleta_1 = require("./ruleta");
+var slot11 = new clasico_1.Clasico(100);
+var slot2 = new moderno_1.Moderno(100);
+var ruleta = new ruleta_1.Ruleta(9, 50, 0.4);
+slot11.modo();
+slot11.juego();
+slot11.resultado();
+ruleta.apuesta();
+ruleta.ruleta();
+ruleta.resultado();
+slot2.modo();
+slot2.juego();
+slot2.resultado();
