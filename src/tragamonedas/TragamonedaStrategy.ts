@@ -6,11 +6,11 @@ export class TragamonedaStrategy {
     constructor() {
     }
 
-    public getTragamoneda(opcion: number, montoInicial:number):Tragamoneda {
+    public getTragamoneda(opcion: number):Tragamoneda {
         if (opcion == 1) {
-            return new UnaLineaTragamoneda(montoInicial);
+            return new UnaLineaTragamoneda();
         } else {
-            return new TresLineasTragamoneda(montoInicial);
+            return new TresLineasTragamoneda();
         }
     }
 }
