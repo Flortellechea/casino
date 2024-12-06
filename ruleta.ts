@@ -36,6 +36,7 @@ export class Ruleta extends Casino{
                 console.log('Has perdido todo tu dinero.\nIngresa mas para jugar nuevamente')
             }
         }
+        
     }
     public getEleccion():number{
         return this.eleccion;

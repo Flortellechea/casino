@@ -42,7 +42,8 @@ var Moderno = /** @class */ (function (_super) {
     Moderno.prototype.resultado = function () {
         if (this.num1 === this.num2 && this.num1 === this.num3 || this.num1 === this.num4 && this.num1 === this.num7 ||
             this.num4 === this.num5 && this.num4 === this.num6 || this.num2 === this.num5 && this.num2 === this.num8 ||
-            this.num7 === this.num8 && this.num7 === this.num9 || this.num3 === this.num6 && this.num3 === this.num9) {
+            this.num7 === this.num8 && this.num7 === this.num9 || this.num3 === this.num6 && this.num3 === this.num9 ||
+            this.num1 === this.num2 && this.num1 === this.num3 && this.num1 === this.num4 && this.num1 === this.num5 && this.num1 === this.num6 && this.num1 === this.num7 && this.num1 === this.num8 && this.num1 === this.num9) {
             console.log('|' + this.num1 + '|' + '|' + this.num2 + '|' + '|' + this.num3 + '|');
             console.log('|' + this.num4 + '|' + '|' + this.num5 + '|' + '|' + this.num6 + '|');
             console.log('|' + this.num7 + '|' + '|' + this.num8 + '|' + '|' + this.num9 + '|');
